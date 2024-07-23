@@ -1,0 +1,168 @@
+@import url(https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap%27);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    gap: 50px;
+
+}
+
+
+
+a {
+    text-decoration: none;
+    color: #754722;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+body {
+    background-image: url("../img/fondo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: "Bebas Neue", sans-serif;
+    font-style: normal;
+
+}
+
+.container {
+    background-color: rgba(208, 142, 75, 0.8);
+    width: 70%;
+    margin: auto;
+}
+
+
+
+.logo {
+    width: 10%;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.logo img {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.menu {
+    background-color: #C4A174;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.menuIzquierda {
+    display: flex;
+    margin: 30px;
+}
+
+.menuDerecha {
+    display: flex;
+    margin: 30px;
+}
+
+
+
+.nombre {
+    text-shadow: #C4A174;
+    color: #462B09;
+    text-shadow: 2px 2px 4px #C29E70;
+    font-size: 30px;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 50px;
+    text-shadow: #C4A174;
+    color: #462B09;
+    text-shadow: 2px 2px 4px #C29E70;
+    padding: 20px 0px;
+}
+
+.fondo {
+    background-image: url("/assets/img/fondo.jpg");
+}
+
+.subtitulo {
+    text-align: center;
+    font-size: 25px;
+    color: #462B09;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.portafolio {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+
+}
+
+.burguer {
+    width: 33.33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.contenido {
+    width: 60%;
+    color: #5B3B14;
+    font-size: 20px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+}
+
+.burguer img {
+    width: 100%;
+    height: auto;
+}
+
+.boton:hover {}
+
+.boton {
+    background-color: #EEBD8A;
+    width: 50%;
+    height: 30px;
+    border-radius: 20px;
+    color: #6B321F;
+    border: none;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.pie {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 60px;
+    padding-top: 20px;
+    background-color: #6B321F;
+    /* border-top-left-radius: 40px;
+    border-top-right-radius: 40px; */
+    border-radius: 40px 40px 0px 0px;
+    color: #EEBD8A;
+    margin-bottom: 3px;
+}
